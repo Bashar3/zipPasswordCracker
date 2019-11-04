@@ -7,9 +7,9 @@ Simple code in Python to crack .zip files password. Only for educational purpose
 
 # Usage 
 ```
-git clone https://github.com/Bashar3/zipPasswordCracker.git
-cd zipPasswordCracker
-python zipBruteForcer.py -z <zipfile.zip> -p <passwordfile.txt>
+# git clone https://github.com/Bashar3/zipPasswordCracker.git
+# cd zipPasswordCracker
+# python zipBruteForcer.py -z <zipfile.zip> -p <passwordfile.txt>
 ```
 
 # Description 
