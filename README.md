@@ -1,5 +1,5 @@
 # zipPasswordCracker
-Simple code in Python to crack .zip files password. Only for educational purpose
+Simple code in Python to crack .zip files with password. Only for educational purpose
 
 
 # Disclaimer 
@@ -12,6 +12,4 @@ Simple code in Python to crack .zip files password. Only for educational purpose
 # python zipBruteForcer.py -z <zipfile.zip> -p <passwordfile.txt>
 ```
 
-# Description 
-This is my first hacking tool. I tried to make it as simple as possible, but it took time. 
-Scince I'm very intrested in security there'll be some more tools coming in the future.
+
