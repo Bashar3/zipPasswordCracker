@@ -6,9 +6,9 @@ from time import time
 AUTHOR = "Bashar Oumari"
 VERSION = "2.0"
 art = print("""\
-                         v
-                   (__)v | v
-                   /\/\\_|_/
+    '''''''''''         v
+    'Be Patient'---(__)v | v
+    '..........'   /\/\\_|_/
                   _\__/  |
                  /  \/`\<`)
                  \ (  |\_/
