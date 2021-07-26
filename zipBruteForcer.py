@@ -6,17 +6,17 @@ from time import time
 AUTHOR = "Bashar Oumari"
 VERSION = "2.0"
 art = print("""\
-    '''''''''''         v
-    'Be Patient'---(__)v | v
-    '..........'   /\/\\_|_/
-                  _\__/  |
-                 /  \/`\<`)
-                 \ (  |\_/
-                 /)))-(  |
-                / /^ ^ \ |
-               /  )^/\^( |
-               )_//`__>> |
-                 #   #`  |  """)
+    '''''''''''           v
+    'Be Patient'---(__) v | v
+    '..........'   /\/\ \_|_/
+                  _\__/   |
+                 /  \/`\ <`)
+                 \ (  | \_/
+                 /)))-(   |
+                / /^ ^ \  |
+               /  )^/\^(  |
+               )_//`__>>  |
+                 #   #`   |  """)
 parser = argparse.ArgumentParser(description="\nUsage: python zipBruteForcer.py -z <zipfile.zip> -p <passwordfile.txt>"+
                                  "\n-V " + VERSION + " by " + AUTHOR )
 
@@ -63,7 +63,7 @@ with open(passfile, "r") as f:
             pass
 
     if foundpass1 == "":
-        print("\nPassword not found. Try a bigger password list.")
+        print("\nPassword not found. Try a bigger password list. Took ", round(time() - c_t, 2))
         quit()
 
 
