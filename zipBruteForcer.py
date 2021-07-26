@@ -34,6 +34,7 @@ try:
 
 except:
     print(parser.description)
+    print("Check the zip file name")
     exit(0)
 
 try:
